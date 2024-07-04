@@ -20,7 +20,7 @@ body {
     align-items: center;
 }
 
-section {
+#espaço {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,9 +30,27 @@ section {
 
 .apresentação {
    height: 604px;
+   width: 60%;
+   border: 5px solid red;
+}
+p {
+    margin-top: 30px;
+    font-size: 30px;
 }
 
-h1, p, h1 {
-    justify-content: flex;
-    text-align: center;
+h1 {
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+a {
+    font-size: 30px;
+}
+
+#a1 {
+    margin-right: 50px;
+}
+
+#a2 {
+    margin-left: 60px;
 }
