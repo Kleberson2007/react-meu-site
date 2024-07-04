@@ -24,4 +24,15 @@ section {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+
+.apresentação {
+   height: 604px;
+}
+
+h1, p, h1 {
+    justify-content: flex;
+    text-align: center;
 }
