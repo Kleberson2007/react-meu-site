@@ -12,8 +12,8 @@ export default function App() {
           <a id='a1' className='button-link'>contador</a> <a id='a2' className='button-link'>Lista de tarefas</a>
         </section>
       </div>
-      <div className='imagem'>
-        <img src='teste.jpeg' rel='eu' width="400px" height="600px" />
+      <div id='imagem'>
+        <img src='teste.jpeg' rel='eu' width="400px" height="592px" />
       </div>
     </section>
   );
