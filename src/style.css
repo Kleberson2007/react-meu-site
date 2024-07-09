@@ -11,6 +11,9 @@
 body {
     width: 100%;
     margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #root {
@@ -36,7 +39,7 @@ body {
    border: 5px solid red;
    animation: inicioanimação;
    animation-duration: 1.4s;
-   animation-delay: 1400ms;
+   animation-delay: 1500ms;
 }
 
 #imagem {
@@ -44,7 +47,7 @@ body {
     border: 5px solid red;
     animation: inicioanimação;
     animation-duration: 1.4s;
-    animation-delay: 1800ms;
+    animation-delay: 2000ms;
 }
 
 p {
@@ -63,7 +66,7 @@ h1 {
 }
 
 #a1 {
-    margin-right: 60px;
+    margin-right: 10vh;
     padding: 10px;
     background-color: #555;
     border-radius: 30px;
@@ -71,7 +74,7 @@ h1 {
 }
 
 #a2 {
-    margin-left: 60px;
+    margin-left: 10vh;
     padding: 10px;
     background-color: #555;
     border-radius: 30px;
@@ -89,7 +92,7 @@ h1 {
 }
 
 @keyframes inicioanimação {
-    30% {opacity: 0%;margin-left: 100px;}
-    60% {opacity: 0%;margin-left: 50px;}
+    0% {opacity: 0%;margin-left: 100px;}
+    50% {opacity: 0%;margin-left: 50px;}
     100% {opacity: 100%;margin-left: 0px;}
 }
